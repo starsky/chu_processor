@@ -9,7 +9,7 @@ You can run either
     which will produce merged skeleton + rgb 1.mp4 file
 
   b.) or multiple videos
-    ls -d {dir_with_videso}/* |python chu_video_merger.py -
+    find /proj/stars/data6/CHU_Nice/DemCare/Kinect -maxdepth 3 -iname "Scenario*"|head -2 | python ../src/chu_video_merger.py -|python chu_video_merger.py -
     which will produce merged skeleton + rgb 1.mp4, 2.mp4, 3.mp4 ... files
 
 3. FFMPEG ISSUE
