@@ -1,0 +1,9 @@
+/data
+/new_results
+/results_depth
+/results
+*.pyc
+*.log
+/result_videos
+/input_video
+/tmp

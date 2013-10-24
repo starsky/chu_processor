@@ -1,0 +1,23 @@
+1. DESCRIPTION
+This project is for merging into one video skeleton, and rgb from CHU DemCare Nice data set.
+This programm also produces log (chu.log) with all warnings found in dataset (eg. missing files, frames etc.).
+
+2. RUN
+You can run either
+  a.) process single video.
+    python chu_video_merger.py /proj/stars/data6/CHU_Nice/DemCare/Kinect/20130225a/20130225a_lateral/Scenario_01
+    which will produce merged skeleton + rgb 1.mp4 file
+
+  b.) or multiple videos
+    ls -d {dir_with_videso}/* |python chu_video_merger.py -
+    which will produce merged skeleton + rgb 1.mp4, 2.mp4, 3.mp4 ... files
+
+3. FFMPEG ISSUE
+This program was tested on 1.2.4. It is highly probable that it won`t work on previous versions of ffmpeg.
+
+If you have older version of ffmpeg please update it to 1.2.4 or compile it with below configuration:
+
+./configure --enable-libx264 --enable-gpl
+
+you can use custom ffmpeg version by pointing it by enviromental variable FFMPEG_BIN eg.:
+export FFMPEG_BIN=/opt/ffmpeg/bin/ffmpeg
