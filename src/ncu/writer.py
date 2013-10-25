@@ -24,7 +24,7 @@ class VideoWriter(object):
         img.save(self.p.stdin,format='png')
 
     def finish(self):
-        self.p.terminate()
+        self.p.stdin.close()
 
 
 #class ScreenWriter(object):
