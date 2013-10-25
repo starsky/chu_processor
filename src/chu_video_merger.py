@@ -43,6 +43,9 @@ def main(argv=None):
             writer = VideoWriter(str(i))
             for frame_folder in frame_folders:
                 #print frame_folder
+                if not os.path.exists(os.path.join(frame_folder,'raw','skeleton.xml')):
+                    logging.info('[Missing Skeleton File]\t%s' % frame_folder)
+                    continue
                 img = chain.process(frame_folder)
                 writer.write(img)
             writer.finish()

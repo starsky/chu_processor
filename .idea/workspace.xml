@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5009d4db-06a9-476c-a5a6-6e73081dd1f0" name="Default" comment="" />
+    <list default="true" id="5009d4db-06a9-476c-a5a6-6e73081dd1f0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chu_video_merger.py" afterPath="$PROJECT_DIR$/src/chu_video_merger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="NCUProcesor.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reader.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reader.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ncu/reader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="22" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.3146853" vertical-offset="1110" max-vertical-offset="3285">
+            <state line="101" column="0" selection-start="3220" selection-end="3291" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="3285">
               <folding />
             </state>
           </provider>
@@ -41,13 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chu_video_merger.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="chu_video_merger.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chu_video_merger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="39" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="930">
-              <folding>
-                <element signature="e#50#60#0" expanded="true" />
-              </folding>
+            <state line="49" column="25" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.75174826" vertical-offset="0" max-vertical-offset="885">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,8 +88,8 @@
         <option value="/home/mkopersk/workspace/NCUProcesor/src/new_bin.py" />
         <option value="$PROJECT_DIR$/src/new_bin.py" />
         <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/src/chu_video_merger.py" />
         <option value="$PROJECT_DIR$/src/ncu/reader.py" />
+        <option value="$PROJECT_DIR$/src/chu_video_merger.py" />
       </list>
     </option>
   </component>
@@ -124,7 +125,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -133,42 +133,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NCUProcesor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CHUProcesor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NCUProcesor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CHUProcesor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Confirmation" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/result_videos" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -387,23 +364,30 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/src/ncu/reader.py</url>
-          <line>87</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/chu_video_merger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="975">
+        <state line="42" column="39" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ncu/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="975">
           <folding>
-            <element signature="e#50#60#0" expanded="true" />
+            <marker date="1382606918231" expanded="true" signature="642:669" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chu_video_merger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="222" selection-end="222" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="975">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -433,9 +417,7 @@
     <entry file="file://$PROJECT_DIR$/src/chu_video_merger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" vertical-offset="366" max-vertical-offset="990">
-          <folding>
-            <element signature="e#50#60#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -471,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/lib64/python2.7/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1248" column="0" selection-start="45794" selection-end="45794" vertical-scroll-proportion="0.0" vertical-offset="18553" max-vertical-offset="23070">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib64/python2.7/site-packages/PIL/PngImagePlugin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="447" column="0" selection-start="12430" selection-end="12430" vertical-scroll-proportion="0.33266932" vertical-offset="6508" max-vertical-offset="9360" />
@@ -485,23 +460,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="858">
+        <state line="22" column="40" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.3846154" vertical-offset="0" max-vertical-offset="858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ncu/reader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3220" selection-end="3291" vertical-scroll-proportion="0.0" vertical-offset="1335" max-vertical-offset="3285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/subprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1248" column="0" selection-start="45794" selection-end="45794" vertical-scroll-proportion="0.0" vertical-offset="18553" max-vertical-offset="23070">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chu_video_merger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="39" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="930">
-          <folding>
-            <element signature="e#50#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ncu/reader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="22" selection-start="3217" selection-end="3217" vertical-scroll-proportion="0.3146853" vertical-offset="1110" max-vertical-offset="3285">
+        <state line="49" column="25" selection-start="1977" selection-end="1977" vertical-scroll-proportion="0.75174826" vertical-offset="0" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
